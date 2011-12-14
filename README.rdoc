@@ -1,0 +1,12 @@
+= redmine_show_descriptions
+
+Allows choosing whether to render the issues list without descriptions (original Redmine behavior) - or with complete issue descriptions along with the short headers. 
+Control the mode through Issues - Options - Rendering parameters - Show descriptions checkbox.
+
+Credits:
+Authors: Alexander Poplavsky (poplavsky@axmor.com), Pavel Vinokurov (vinokurov@axmor.com)
+Inspired by a Trac feature (http://trac.edgewall.org/)
+Work sponsored by Axmor Software (http://www.axmor.com)
+
+
+
