@@ -8,5 +8,13 @@ Authors: Alexander Poplavsky (poplavsky@axmor.com), Pavel Vinokurov (vinokurov@a
 Inspired by a Trac feature (http://trac.edgewall.org/)
 Work sponsored by Axmor Software (http://www.axmor.com)
 
+ChangeLog
+Fixed:(Thanks Terence Mill)
+1. when click apply button twice, the issue list would lost the issue information in the list
+2. check_box error.
+
+Feature:
+1. Added the ZH.yml translation.
+
 
 
