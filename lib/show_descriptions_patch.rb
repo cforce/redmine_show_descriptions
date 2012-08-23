@@ -1,6 +1,9 @@
 module ShowDescriptionsPatch
   module QueriesHelperPatch
     def self.included(base)
+      # do not include twice
+      return if base.included_modules.include?(::ShowDescriptionsPatch::QueriesHelperPatch)
+
       base.send(:include, InstanceMethods)
       base.class_eval do
         alias_method_chain :retrieve_query, :show_desc
