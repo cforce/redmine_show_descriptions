@@ -2,7 +2,7 @@ module ShowDescriptionsPatch
   module QueriesHelperPatch
     def self.included(base)
       # do not include twice
-      return if base.included_modules.include?(::ShowDescriptionsPatch::QueriesHelperPatch)
+      return if base.included_modules.include?(InstanceMethods)
 
       base.send(:include, InstanceMethods)
       base.class_eval do
